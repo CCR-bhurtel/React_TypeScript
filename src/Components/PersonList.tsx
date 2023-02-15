@@ -1,10 +1,8 @@
 import React from 'react';
+import { Name } from '../Types/PersonTypes';
 
 export type PersonListProps = {
-    personList: {
-        first: string;
-        last: string;
-    }[];
+    personList: Name[];
 };
 function PersonList({ personList }: PersonListProps) {
     return (

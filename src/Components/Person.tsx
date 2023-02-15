@@ -1,10 +1,5 @@
 import React, { ReactElement } from 'react';
-export type PersonProps = {
-    name: {
-        first: string;
-        last: string;
-    };
-};
+import { PersonProps } from '../Types/PersonTypes';
 function Person({ name }: PersonProps): ReactElement {
     return (
         <div>
